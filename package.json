@@ -1,9 +1,9 @@
 {
-  "name": "final-project",
+  "name": "BizzCards",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://GuySmolsky.github.io/final-project",
+  "homepage": "https://GuySmolsky.github.io/BizzCards",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -23,8 +23,7 @@
     "@mui/icons-material": "^7.1.2",
     "@mui/material": "^7.1.2",
     "axios": "^1.10.0",
-    "joi": "^18.0.1",
-    "joi-browser": "^13.4.0",
+    "joi": "^17.13.3",
     "jwt-decode": "^4.0.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",

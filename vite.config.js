@@ -3,7 +3,7 @@ import react from "@vitejs/plugin-react";
 
 export default defineConfig({
   plugins: [react()],
-  base: "/BizzCards/", // Replace with your actual repo name
+  base: "/BizzCards/",
   build: {
     outDir: "dist",
     sourcemap: false,

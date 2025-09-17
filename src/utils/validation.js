@@ -1,4 +1,4 @@
-import Joi from "joi-browser";
+import Joi from "joi";
 
 const passwordRegex =
   /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d{4,})(?=.*[!@%$#^&*\-_])[A-Za-z\d!@%$#^&*\-_]{8,}$/;
