@@ -2,8 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <title>Guy Smolsky Portfolio</title>
+    <title>BizzCards</title>
     <script type="text/javascript">
+      // GitHub Pages redirect hack for single page applications
       var pathSegmentsToKeep = 1;
       var l = window.location;
       l.replace(
@@ -15,7 +16,7 @@
             .split("/")
             .slice(0, 1 + pathSegmentsToKeep)
             .join("/") +
-          "/?" +
+          "/?/" +
           l.pathname
             .slice(1)
             .split("/")
